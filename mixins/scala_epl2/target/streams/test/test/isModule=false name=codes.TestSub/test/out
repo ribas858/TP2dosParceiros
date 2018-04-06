@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestSub:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAn Sub expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return String (100 - 200) when we call Sub(Literal(100), Literal(200).print()) *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "([2]00 - 200)" was not equal to "([1]00 - 200)" (TestSub.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return -100 when we call call Sub(Literal(100), Literal(200)).eval() *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  0 was not equal to -100 (TestSub.scala:30)[0m[0m
